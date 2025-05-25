@@ -18,7 +18,10 @@ class RinUITranslator(QTranslator):
         :param locale: QLocale, the locale to load (eg = QLocale(QLocale.Chinese, QLocale.China), QLocale("zh_CN"))
         :return: bool
         """
-        print(f"🌏 Current locale: {locale.name()}")
+        try:
+            print(f"🌏 Current locale: {locale.name()}")
+        except UnicodeEncodeError:
+            print(f"Current locale: {locale.name().encode('utf-8', errors='replace').decode(errors='replace')}")
         path = os.path.join(RINUI_PATH, "RinUI", "languages", f"{locale.name()}.qm")
         if not os.path.exists(path):
             raise FileNotFoundError(f"Cannot find translation file: {path}")
