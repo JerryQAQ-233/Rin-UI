@@ -1,7 +1,7 @@
 import os
 import sys
 
-from PyQt5.QtCore import Slot, QObject, QLocale, QTranslator
+from PyQt5.QtCore import pyqtSlot as Slot, QObject, QLocale, QTranslator
 from PyQt5.QtGui import QIcon, QGuiApplication
 from PyQt5.QtWidgets import QApplication
 from datetime import datetime
