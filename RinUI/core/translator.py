@@ -1,4 +1,4 @@
-from PySide6.QtCore import QTranslator, QLocale
+from PyQt5.QtCore import QTranslator, QLocale
 from .config import RINUI_PATH
 import os
 

@@ -1,10 +1,10 @@
 import os
 import sys
 
-from PySide6.QtCore import QCoreApplication, QUrl, QObject
-from PySide6.QtGui import QIcon
-from PySide6.QtWidgets import QApplication
-from PySide6.QtQml import QQmlApplicationEngine
+from PyQt5.QtCore import QCoreApplication, QUrl, QObject
+from PyQt5.QtGui import QIcon
+from PyQt5.QtWidgets import QApplication
+from PyQt5.QtQml import QQmlApplicationEngine
 
 from .theme import ThemeManager
 from .config import BackdropEffect, is_windows, Theme, RINUI_PATH, RinConfig

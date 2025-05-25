@@ -2,7 +2,7 @@ import os
 import json
 import platform
 import sys
-from PySide6.QtCore import QLocale
+from PyQt5.QtCore import QLocale
 from enum import Enum
 
 

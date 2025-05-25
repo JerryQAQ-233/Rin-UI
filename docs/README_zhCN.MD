@@ -43,7 +43,7 @@ RinUI 是一个类 Fluent Design 的 Qt Quick (QML) UI 库，RinUI 将提供高�
 pip install RinUI
 
 # ↓ Test PyPI
-pip install PySide6 darkdetect  # 在 TestPypi 中这两个包没有 Release，当 RinUI 发布到 PyPi 时，即可省略此步骤。
+pip install PyQt5 darkdetect  # 在 TestPypi 中这两个包没有 Release，当 RinUI 发布到 PyPi 时，即可省略此步骤。
 pip install -i https://test.pypi.org/simple/ RinUI --no-deps
 ```
 在你的 QML 文件中导入 RinUI：
@@ -70,7 +70,7 @@ python gallery.py
 
 ## 🙌 致谢
 ### 资源
-- [PySide6 & Qt Quick](https://www.qt.io/)
+- [PyQt5 & Qt Quick](https://www.qt.io/)
 - [Fluent Design System](https://fluent2.microsoft.design/)
 - [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons/)
 ### 贡献者

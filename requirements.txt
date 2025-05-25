@@ -1,3 +1,3 @@
-PySide6~=6.6.3.1
+PyQt5~=5.15
 darkdetect~=0.8.0
 pywin32==227 ; sys_platform=="win32"

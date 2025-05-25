@@ -8,11 +8,13 @@ version = "0.0.11"
 authors = [
     { name = "RinLit", email = "lintu233_qwq@icloud.com" }
 ]
-description = "A Fluent Design-like UI library for Qt Quick (QML) based on PySide6"
+description = "A Fluent Design-like UI library for Qt Quick (QML) based on PyQt5"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "PySide6>=6.6.3.1",
+    "PyQt5>=5.15",
+            "PyQt5-sip>=12.11",
+            "PyQt5-Qt5>=5.15.2",
     "darkdetect~=0.8.0",
     "pywin32>=306 ; sys_platform == 'win32'"
 ]

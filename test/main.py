@@ -1,6 +1,6 @@
 import sys
 
-from PySide6.QtWidgets import QApplication
+from PyQt5.QtWidgets import QApplication
 from RinUI import RinUIWindow, BackdropEffect, Theme
 
 if __name__ == '__main__':

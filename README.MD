@@ -52,7 +52,7 @@ Then you can run the QML file in your project.
 ```python
 import sys
 from RinUI import *
-from PySide6.QtWidgets import QApplication
+from PyQt5.QtWidgets import QApplication
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
@@ -76,7 +76,7 @@ Now you can learn more about RinUI components and themes in [the online document
 
 ## 🙌 Acknowledgements
 ### Resources
-- [PySide6 & Qt Quick](https://www.qt.io/)
+- [PyQt5 & Qt Quick](https://www.qt.io/)
 - [Fluent Design System](https://fluent2.microsoft.design/)
 - [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons/)
 - [WinUI 3 Gallery](https://github.com/microsoft/WinUI-Gallery)

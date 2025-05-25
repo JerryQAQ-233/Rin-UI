@@ -2,7 +2,7 @@ import ctypes
 import platform
 import time
 
-from PySide6.QtCore import QObject, Signal, Slot, QThread
+from PyQt5.QtCore import QObject, pyqtSignal as Signal, pyqtSlot as Slot, QThread
 
 from .config import DEFAULT_CONFIG, RinConfig, is_win10, is_windows, is_win11, BackdropEffect
 import sys
